@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="2">
+
+  <testsuite name="CancelWarrant"
+    errors="1" failures="0" hostname="" id="" package="CancelWarrant" skipped="1"
+    tests="2" time="0.01500" timestamp="Fri, 07 Sep 2018 23:34:31 GMT">
+  
+    <testcase name="Cancel Existing Warrant" classname="CancelWarrant" time="0.01500" assertions="0">
+    </testcase>
+  
+
+  
+    <system-err>
+        Error while running [Cancel Warrant / Cancel Existing Warrant]:
+
+  Error: submit was not found in &#34;cancelPage&#34;. Available elements: ID,Reason,DateCancel,Submit,Clear,ErrorMsg,QueryBody
+    at getElement (C:\Users\ciesz\AppData\Roaming\npm\node_modules\nightwatch\lib\page-object\command-wrapper.js:13:13)
+    at Page.click (C:\Users\ciesz\AppData\Roaming\npm\node_modules\nightwatch\lib\page-object\command-wrapper.js:81:32)
+    at cancelWarrant (C:\Users\ciesz\Desktop\DevMtn\WantedQueriesAutomation\Tests\CancelWarrant.js:16:10)
+    at Object.Cancel Existing Warrant (C:\Users\ciesz\Desktop\DevMtn\WantedQueriesAutomation\Tests\CancelWarrant.js:27:13)
+    at Module.call (C:\Users\ciesz\AppData\Roaming\npm\node_modules\nightwatch\lib\runner\module.js:62:34)
+    at C:\Users\ciesz\AppData\Roaming\npm\node_modules\nightwatch\lib\runner\testcase.js:70:29
+    at _fulfilled (C:\Users\ciesz\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:834:54)
+    at self.promiseDispatch.done (C:\Users\ciesz\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:863:30)
+    at Promise.promise.promiseDispatch (C:\Users\ciesz\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:796:13)
+    at C:\Users\ciesz\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:556:49
+    </system-err>
+  
+
+  
+    
+    <testcase
+      name="Cancel Cancel Existing Warrant" classname="CancelWarrant">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>

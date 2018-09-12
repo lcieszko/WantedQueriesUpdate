@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="2">
+
+  <testsuite name="EnterWanted"
+    errors="1" failures="0" hostname="" id="" package="EnterWanted" skipped="1"
+    tests="2" time="0.01200" timestamp="Fri, 07 Sep 2018 21:43:06 GMT">
+  
+    <testcase name="Input Valid Info" classname="EnterWanted" time="0.01200" assertions="0">
+    </testcase>
+  
+
+  
+    <system-err>
+        Error while running [Enter Wanted / Input Valid Info]:
+
+  ReferenceError: VaildWarrant is not defined
+    at Object.Input Valid Info (C:\Users\ciesz\Desktop\DevMtn\WantedQueriesAutomation\Tests\EnterWanted.js:64:9)
+    at Module.call (C:\Users\ciesz\AppData\Roaming\npm\node_modules\nightwatch\lib\runner\module.js:62:34)
+    at C:\Users\ciesz\AppData\Roaming\npm\node_modules\nightwatch\lib\runner\testcase.js:70:29
+    at _fulfilled (C:\Users\ciesz\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:834:54)
+    at self.promiseDispatch.done (C:\Users\ciesz\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:863:30)
+    at Promise.promise.promiseDispatch (C:\Users\ciesz\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:796:13)
+    at C:\Users\ciesz\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:556:49
+    at runSingle (C:\Users\ciesz\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:137:13)
+    at flush (C:\Users\ciesz\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    </system-err>
+  
+
+  
+    
+    <testcase
+      name="Input Invalid Info" classname="EnterWanted">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>

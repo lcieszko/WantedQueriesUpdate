@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="1">
+
+  <testsuite name="ModifyWanted"
+    errors="1" failures="0" hostname="" id="" package="ModifyWanted" skipped="0"
+    tests="1" time="0.01300" timestamp="Fri, 07 Sep 2018 23:12:47 GMT">
+  
+    <testcase name="Edit Existing Warrant" classname="ModifyWanted" time="0.01300" assertions="0">
+    </testcase>
+  
+
+  
+    <system-err>
+        Error while running [Modify Wanted / Edit Existing Warrant]:
+
+  Error: Sex2 was not found in &#34;modifyPage&#34;. Available elements: ID,Header,MKE,ORI,Name,Sex,Race,Height,Weight,Hair,Offense,DateOfWarrant,DriversLicense,DLState,DLDate,LicencePlate,LicenseState,LicenceDate,Submit,Clear,ErrorMsg,QueryBody
+    at getElement (C:\Users\ciesz\AppData\Roaming\npm\node_modules\nightwatch\lib\page-object\command-wrapper.js:13:13)
+    at Page.click (C:\Users\ciesz\AppData\Roaming\npm\node_modules\nightwatch\lib\page-object\command-wrapper.js:81:32)
+    at modifyWarrant (C:\Users\ciesz\Desktop\DevMtn\WantedQueriesAutomation\Tests\ModifyWanted.js:11:10)
+    at Object.Edit Existing Warrant (C:\Users\ciesz\Desktop\DevMtn\WantedQueriesAutomation\Tests\ModifyWanted.js:36:13)
+    at Module.call (C:\Users\ciesz\AppData\Roaming\npm\node_modules\nightwatch\lib\runner\module.js:62:34)
+    at C:\Users\ciesz\AppData\Roaming\npm\node_modules\nightwatch\lib\runner\testcase.js:70:29
+    at _fulfilled (C:\Users\ciesz\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:834:54)
+    at self.promiseDispatch.done (C:\Users\ciesz\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:863:30)
+    at Promise.promise.promiseDispatch (C:\Users\ciesz\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:796:13)
+    at C:\Users\ciesz\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:556:49
+    </system-err>
+  
+
+  
+  </testsuite>
+</testsuites>
